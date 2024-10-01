@@ -1,0 +1,23 @@
+java ```package andre;
+public class vetor {
+	public static void main(String[] args) {
+		String[]MeuVetor;
+		MeuVetor=new String[10];
+		MeuVetor[0]="otila";
+		MeuVetor[1]="manas";
+		MeuVetor[2]="vera";
+		MeuVetor[3]="zeca";
+		MeuVetor[4]="butão";
+		MeuVetor[5]="diu";
+		MeuVetor[6]="marreco";
+		MeuVetor[7]="luis henrrique";
+		MeuVetor[8]="divanilson";
+		MeuVetor[9]="rato";
+		MeuVetor[9]="jojo";
+		for (int i=0; i <MeuVetor.length;i++) {
+			System.out.println(MeuVetor[i]);
+		}
+	}
+
+}
+```
